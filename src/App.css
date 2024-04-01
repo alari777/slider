@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.swiper-button-next, .swiper-button-prev {
+    /* Позиционирование кнопок */
+    position: absolute;
+    top: auto;
+    bottom: 50px;
+width: 30px;
+    height: 30px;
+    /* Остальные стили для кастомизации внешнего вида кнопок */
+}
+
+.swiper-button-next {
+    right: 50px;
+}
+
+.swiper-button-prev {
+    left: 50px;
+}
+.swiper-pagination {
+    bottom: 50px;
+left: 0;
+    width: 100%;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    transform: scale(0.4); /* Уменьшает размер стрелок; измените значение scale для настройки размера */
+}
